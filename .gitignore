@@ -1,0 +1,16 @@
+logs
+project/project
+project/target
+project/play-fork-run.sbt
+project/sbt-ui.sbt
+target/*
+!target/scala-2.11/
+target/scala-2.11/*
+!target/scala-2.11/api/
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+.DS_Store

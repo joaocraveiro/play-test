@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="neo4j"
+		module="neo4j_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="docs"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
+		date="20170118184430"/>
+	<dependencies>
+		<module organisation="com.typesafe.play" name="play-omnidoc_2.10">
+			<revision name="2.5.8" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="neo4j" name="neo4j_2.10" conf="docs" rev="2.5.8" rev-constraint-default="2.5.8" rev-constraint-dynamic="2.5.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,14 @@
+@()
+<html>
+    <head>
+        <title>Play-test</title>
+    </head>
+    <body>
+        <h1>Play-test</h1>
+        <a href="@routes.ApplicationController.getIndex()">Run getIndex</a>
+        <br>
+        @helper.form(action = routes.ApplicationController.postIndex()) {
+            <input type="submit" value="Run postIndex"></input>
+        }
+    </body>
+</html>
